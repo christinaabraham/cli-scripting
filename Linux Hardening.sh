@@ -20,3 +20,5 @@ echo SETTING AUDIT POLICIES
 apt‐get install auditd
 auditctl –e 1
 gedit/etc/audit/auditd.conf
+read -p "Press [Enter] key to continue..."
+
