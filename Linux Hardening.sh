@@ -1,3 +1,6 @@
+# ENTER to execute commands
+# Ctrl+D to close commands
+
 echo EXECUTING SHELL SCRIPT...
 
 echo CHECKING FOR UPDATES...
