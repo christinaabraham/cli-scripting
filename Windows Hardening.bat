@@ -1,6 +1,6 @@
 @echo off
 title Windows Hardening
-echo Enabling Firewall...
+echo ENABLING FIREWALL...
 netsh advfirewall set domainprofile state on
 
 
