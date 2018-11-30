@@ -15,3 +15,9 @@ ps -ef
 echo CHECKING USER ACCOUNTS...
 cat /etc/passwd
 cat /etc/group
+
+echo SETTING AUDIT POLICIES
+REM test
+Install the auditing program by typing apt‐get install auditd
+2. .Enable audits by typing auditctl –e 1
+3. View and modify policies by typing gedit/etc/audit/auditd.conf
