@@ -43,7 +43,7 @@ read -p "Press [Enter] key to continue..."
 
 echo [TODO] Enforce password complexity with one of each type of character:
 echo Add “ucredit=‐1 lcredit=‐1 dcredit=‐1 ocredit=‐1” to the end of the line with “pam_cracklib.so” in it.
-echo | Uppercase: ucredit| Lowercase: lcredit | Number: dcredit | Symbol: ocredit | 
+echo | Uppercase: ucredit | Lowercase: lcredit | Number: dcredit | Symbol: ocredit | 
 echo Cracklibmay needs to be installed before enforcing password complexity.
 read -p "Press [Enter] key to continue..."
 
