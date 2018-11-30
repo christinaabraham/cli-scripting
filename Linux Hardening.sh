@@ -16,9 +16,11 @@ echo CHECKING USER ACCOUNTS...
 cat /etc/passwd
 cat /etc/group
 
-echo SETTING AUDIT POLICIES
+echo SETTING AUDIT POLICIES...
 apt‐get install auditd
 auditctl –e 1
 gedit/etc/audit/auditd.conf
+
+echo Pause to view and modify policies.
 read -p "Press [Enter] key to continue..."
 
