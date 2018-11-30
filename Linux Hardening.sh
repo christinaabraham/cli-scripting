@@ -37,7 +37,7 @@ read -p "Press [Enter] key to continue..."
 echo OPENING PAM PASSWORD FILE...
 gedit /etc/pam.d/common‐password
 
-echo E[TODO]nforce a password history:  
+echo [TODO] Enforce a password history:  
 echo Add “remember=5” to the end of the line that has “pam_unix.so” in it.
 read -p "Press [Enter] key to continue..."
 
