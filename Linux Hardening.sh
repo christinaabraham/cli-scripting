@@ -1,3 +1,7 @@
+# Basic Command Syntax # 
+## Command + Option + Operator + File Name/Location ##
+
+
 # ENTER to execute commands
 # Ctrl+D to close commands
 
