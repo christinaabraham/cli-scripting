@@ -65,3 +65,4 @@ echo [TODO] Make sure the following is enforced: SELINUX=enforcing
 # View Firewall configurations
 echo CURRENT FIREWALL STATUS...
 iptables -L
+
