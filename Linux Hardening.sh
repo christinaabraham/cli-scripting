@@ -1,9 +1,10 @@
 # Basic Command Syntax # 
 ## Command + Option + Operator + File Name/Location ##
 
-
 # ENTER to execute commands
 # Ctrl+D to close commands
+
+########## WEEK OF NOVEMBER 30 ##########
 
 echo EXECUTING SHELL SCRIPT...
 
