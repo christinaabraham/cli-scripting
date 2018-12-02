@@ -66,3 +66,8 @@ echo [TODO] Make sure the following is enforced: SELINUX=enforcing
 # View Firewall configurations
 echo CURRENT FIREWALL STATUS...
 iptables -L
+
+# 0 > /proc/sys/net/ipv4/ip_forward
+echo DISABLING IP FORWARDING...
+sysctl -w net.ipv4.ip_forward=0
+net.ipv4.ip_forward = 0
