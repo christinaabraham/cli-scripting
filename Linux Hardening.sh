@@ -71,3 +71,5 @@ iptables -L
 echo DISABLING IP FORWARDING...
 sysctl -w net.ipv4.ip_forward=0
 net.ipv4.ip_forward = 0
+
+########## WEEK OF DECEMBER 5 ###########
