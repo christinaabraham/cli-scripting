@@ -1,3 +1,6 @@
+# Contributors
+Christina Abraham, Hannah Hunter
+
 # CLI-Scripting
 Linux (Ubuntu 18, Debian), Windows 7/8/10/Server hardening scripts.
 
