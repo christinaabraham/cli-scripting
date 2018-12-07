@@ -7,7 +7,11 @@ Christina Abraham, Hannah Hunter
 
 # TODO
 Disable Send Packet Redirects
+
 Disable ICMP Redirect Acceptance
+
 Enable Bad Error Message Protection
+
 Enforce Password Policies
+
 Enable Firewall & Zones
