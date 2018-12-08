@@ -15,7 +15,7 @@ sudo apt-get upgrade
 echo DISPLAYING INSTALLED PACKAGES...
 dpkg -l
 
-echo DISPLAYING RUNNING TASKS AND PROGRAMS
+echo DISPLAYING RUNNING TASKS AND PROGRAMS...
 lsof –i
 netstat -an
 ps -ef
