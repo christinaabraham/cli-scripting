@@ -5,6 +5,7 @@
 # Ctrl+D to close commands
 
 ########## WEEK OF NOVEMBER 30 ##########
+
 echo Only execute this script if, and only if, the forensics questions are completed.
 read -p "Press [Enter] key to continue..."
 
@@ -69,13 +70,13 @@ echo [TODO] Make sure the following is enforced: SELINUX=enforcing
 echo CURRENT FIREWALL STATUS...
 iptables -L
 
+
 ########## WEEK OF DECEMBER 13 ###########
 
 # 0 > /proc/sys/net/ipv4/ip_forward
 echo DISABLING IP FORWARDING...
 sysctl -w net.ipv4.ip_forward=0
 net.ipv4.ip_forward = 0
-
 
 # Install Additional Hardening Software
 echo INSTALLING BASTILLE...
@@ -85,8 +86,10 @@ read -p "Press [Enter] key to continue..."
 
 echo INSTALLING APPARMOR...
 apt-get install apparmor-profiles
+
 # View current profiles and associated modes
 apparmor_status 
+
 # More details of what to do with that information
 man apparmor
 read -p "Press [Enter] key to continue..."
