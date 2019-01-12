@@ -11,3 +11,5 @@ Hannah H., Christina A.
 * Enable Bad Error Message Protection
 * Enforce Password Policies
 * Enable Firewall & Zones
+*  Local Security Policies (secpol.msc)
+* Critical Services settings (RDP, SMB, FTP, etc)
