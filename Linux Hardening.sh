@@ -19,9 +19,9 @@ echo DISPLAYING INSTALLED PACKAGES...
 dpkg -l
 
 echo DISPLAYING RUNNING TASKS AND PROGRAMS...
-lsof –i
-netstat -an
-ps -ef
+sudo lsof –i
+sudo netstat -an
+sudo ps -ef
 
 echo CHECKING USER ACCOUNTS...
 cat /etc/passwd
@@ -29,11 +29,11 @@ cat /etc/group
 
 echo SETTING AUDIT POLICIES...
 # Install auditing program
-apt‐get install auditd
+sudo apt‐get install auditd
 # Enable audits
-auditctl –e 1
+sudo auditctl –e 1
 # View & modify policies
-gedit/etc/audit/auditd.conf
+sudo gedit /etc/audit/auditd.conf
 
 # Pause to view and modify policies.
 read -p "Press [Enter] key to continue..."
