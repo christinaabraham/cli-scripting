@@ -3,7 +3,7 @@
 Linux (Ubuntu 18, Debian), Windows 7/8/10/Server hardening scripts.
 
 # Contributors
-Hannah H., Christina A.
+Hannah, Christina, Alyson
 
 # Todo
 * Disable Send Packet Redirects
